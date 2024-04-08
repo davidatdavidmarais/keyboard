@@ -37,15 +37,15 @@ keyboard.keymap = [
     # Base layer
     [
      KC.TAB,                KC.Q,         KC.W,           KC.E,                  KC.R,                   KC.T,                                              KC.Y,                           KC.U,             KC.I,                   KC.O,          KC.P,           KC.ESC,
-     KC.OS(KC.LALT),        KC.A,         KC.S,           KC.D,                  KC.F,                   KC.G,                                              KC.H,                           KC.J,             KC.K,                   KC.L,          KC.QUOT,        KC.OS(KC.RALT),
+     KC.OS(KC.LALT),        KC.A,         KC.S,           KC.D,                  KC.F,                   KC.G,                                              KC.H,                           KC.J,             KC.K,                   KC.L,          KC.SCLN,        KC.QUOT,
      KC.OS(KC.LSFT),        KC.Z,         KC.X,           KC.C,                  KC.V,                   KC.B,                                              KC.N,                           KC.M,             KC.COMM,                KC.DOT,        KC.SLSH,        KC.OS(KC.MO(3)),
-     XXXXXXX,               XXXXXXX,      XXXXXXX,        KC.OS(KC.LCTL),        KC.LCMD(KC.ENT),        KC.HT(KC.TAB, KC.FD(1)),                           KC.HT(KC.BSPC,KC.FD(2)),        KC.SPC,           KC.OS(KC.RSFT),         XXXXXXX,       XXXXXXX,        XXXXXXX
+     XXXXXXX,               XXXXXXX,      XXXXXXX,        KC.OS(KC.MEH),        KC.LCMD(KC.ENT),        KC.HT(KC.TAB, KC.FD(1)),                           KC.HT(KC.BSPC,KC.FD(2)),        KC.SPC,           KC.OS(KC.RSFT),         XXXXXXX,       XXXXXXX,         XXXXXXX
     ],
     # Lower layer
     [
      _______,      KC.EXLM,      KC.AT,        KC.HASH,      KC.DLR,       KC.PERC,                                                                         KC.CIRC,      KC.AMPR,      KC.ASTR,      KC.LPRN,       KC.RPRN,      _______,
-     _______,      KC.P1,        KC.P2,        KC.P3,        KC.P4,        KC.P5,                                                                           KC.P6,        KC.P7,        KC.P8,        KC.P9,         KC.P0,        _______,
-     _______,      XXXXXXX,      KC.TILD,      KC.GRV,       KC.LBRC,      KC.LCBR,                                                                         KC.RCBR,      KC.RBRC,      KC.COMM,      KC.DOT,        KC.SLSH,      _______,
+     KC.P0,        KC.P1,        KC.P2,        KC.P3,        KC.P4,        KC.P5,                                                                           KC.P6,        KC.P7,        KC.P8,        KC.P9,                       KC.DQUO,
+     _______,      XXXXXXX,      KC.TILD,      KC.GRV,       KC.LBRC,      KC.LCBR,                                                                         KC.RCBR,      KC.RBRC,      KC.LABK,      KC.RABK,       KC.QUES,      _______,
      XXXXXXX,      XXXXXXX,      XXXXXXX,      _______,      _______,      KC.FD(0),                                                                        _______,      _______,      KC.COLN,      XXXXXXX,       XXXXXXX,      XXXXXXX
     ],
     # Raise layer
@@ -57,8 +57,8 @@ keyboard.keymap = [
     ],
     # Func layer
     [
-     _______,      KC.F1,         KC.F2,         KC.F3,        KC.F4,        KC.F5,                                                                          KC.F6,        KC.F7,         KC.F8,        KC.F9,         KC.F10,       _______,
-     _______,      KC.F11,        KC.F12,        XXXXXXX,      XXXXXXX,      XXXXXXX,                                                                        XXXXXXX,      XXXXXXX,       XXXXXXX,      XXXXXXX,       XXXXXXX,      _______,
+     KC.F1,         KC.F2,         KC.F3,        KC.F4,        KC.F5,        KC.F6,                                                                          KC.F7,         KC.F8,        KC.F9,         KC.F10,       KC.F11,       KC.F12,
+     KC.P0,        KC.P1,        KC.P2,        KC.P3,        KC.P4,        KC.P5,                                                                           KC.P6,        KC.P7,        KC.P8,        KC.P9,         _______,      _______,
      _______,      XXXXXXX,       XXXXXXX,       XXXXXXX,      XXXXXXX,      XXXXXXX,                                                                        XXXXXXX,      XXXXXXX,       XXXXXXX,      XXXXXXX,       XXXXXXX,      XXXXXXX,
      _______,      XXXXXXX,       XXXXXXX,       XXXXXXX,      XXXXXXX,      XXXXXXX,                                                                        XXXXXXX,      KC.FD(0),      XXXXXXX,      XXXXXXX,       XXXXXXX,      XXXXXXX
     ]
