@@ -28,6 +28,7 @@ keyboard.modules.append(oneshot)
 
 holdtap = HoldTap()
 holdtap.tap_time = 200
+keyboard.modules.append(holdtap)
 
 _______ = KC.TRNS
 XXXXXXX = KC.NO
