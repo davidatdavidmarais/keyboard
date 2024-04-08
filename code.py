@@ -36,8 +36,8 @@ XXXXXXX = KC.NO
 keyboard.keymap = [
     # Base layer
     [
-     KC.TAB,                KC.Q,         KC.W,           KC.E,                  KC.R,                   KC.T,                                              KC.Y,                           KC.U,             KC.I,                   KC.O,          KC.P,           KC.DEL,
-     KC.OS(KC.LALT),        KC.A,         KC.S,           KC.D,                  KC.F,                   KC.G,                                              KC.H,                           KC.K,             KC.K,                   KC.L,          KC.QUOT,        KC.OS(KC.RALT),
+     KC.TAB,                KC.Q,         KC.W,           KC.E,                  KC.R,                   KC.T,                                              KC.Y,                           KC.U,             KC.I,                   KC.O,          KC.P,           KC.ESC,
+     KC.OS(KC.LALT),        KC.A,         KC.S,           KC.D,                  KC.F,                   KC.G,                                              KC.H,                           KC.J,             KC.K,                   KC.L,          KC.QUOT,        KC.OS(KC.RALT),
      KC.OS(KC.LSFT),        KC.Z,         KC.X,           KC.C,                  KC.V,                   KC.B,                                              KC.N,                           KC.M,             KC.COMM,                KC.DOT,        KC.SLSH,        KC.OS(KC.MO(3)),
      XXXXXXX,               XXXXXXX,      XXXXXXX,        KC.OS(KC.LCTL),        KC.LCMD(KC.ENT),        KC.HT(KC.TAB, KC.FD(1)),                           KC.HT(KC.BSPC,KC.FD(2)),        KC.SPC,           KC.OS(KC.RSFT),         XXXXXXX,       XXXXXXX,        XXXXXXX
     ],
