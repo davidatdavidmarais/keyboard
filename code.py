@@ -43,10 +43,10 @@ keyboard.keymap = [
     ],
     # Lower layer
     [
-     KC.EXLM,      KC.AT,        KC.HASH,      KC.DLR,       KC.PERC,      KC.CIRC,                                                                         KC.AMPR,      KC.ASTR,      KC.LPRN,      KC.RPRN,       KC.LSFT(KC.MINUS),     KC.LSFT(KC.KC.EQL),  
-     KC.P1,        KC.P2,        KC.P3,        KC.P4,        KC.P5,        KC.P6,                                                                           KC.P7,        KC.P8,        KC.P9,        KC.P0,         KC.MINUS               KC.EQL,
-     _______,      XXXXXXX,      KC.TILD,      KC.GRV,       KC.LBRC,      KC.LCBR,                                                                         KC.RCBR,      KC.RBRC,      KC.LABK,      KC.RABK,       KC.QUES,               _______,
-     XXXXXXX,      XXXXXXX,      XXXXXXX,      _______,      _______,      KC.FD(2),                                                                        KC.FD(0),     _______,      KC.COLN,      XXXXXXX,       XXXXXXX,               XXXXXXX
+     KC.EXLM,             KC.AT,        KC.HASH,      KC.DLR,             KC.PERC,                     KC.CIRC,                                                                         KC.AMPR,      KC.ASTR,      KC.LPRN,      KC.RPRN,       KC.LSFT(KC.MINUS),     KC.LSFT(KC.EQL),  
+     KC.P1,               KC.P2,        KC.P3,        KC.P4,              KC.P5,                       KC.P6,                                                                           KC.P7,        KC.P8,        KC.P9,        KC.P0,         KC.MINUS,              KC.EQL,
+     KC.OS(KC.LSFT),      XXXXXXX,      KC.TILD,      KC.GRV,             KC.LBRC,                     KC.LCBR,                                                                         KC.RCBR,      KC.RBRC,      KC.LABK,      KC.RABK,       KC.QUES,               KC.QUES,
+     XXXXXXX,             XXXXXXX,      XXXXXXX,      KC.OS(KC.MEH),      KC.HT(KC.ENT, KC.LGUI),      KC.FD(2),                                                                        KC.FD(0),     KC.SPC,       KC.COLN,      XXXXXXX,       XXXXXXX,               XXXXXXX
     ],
     # Raise layer
     [
@@ -66,4 +66,5 @@ keyboard.keymap = [
 
 if __name__ == '__main__':
     keyboard.go()
+
 
