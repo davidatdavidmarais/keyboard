@@ -10,9 +10,9 @@ from kmk.modules.oneshot import OneShot
 from kmk.modules.holdtap import HoldTap
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
-keyboard.extensions.append(MediaKeys())
 
 keyboard = KMKKeyboard()
+keyboard.extensions.append(MediaKeys())
 
 split = Split(split_type=SplitType.UART, split_flip=True, data_pin=board.GP0, data_pin2=board.GP1, use_pio=True, uart_flip = True)
 keyboard.modules.append(split)
@@ -68,5 +68,6 @@ keyboard.keymap = [
 
 if __name__ == '__main__':
     keyboard.go()
+
 
 
