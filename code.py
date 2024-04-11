@@ -9,6 +9,8 @@ from kmk.modules.split import Split, SplitType
 from kmk.modules.oneshot import OneShot
 from kmk.modules.holdtap import HoldTap
 from kmk.modules.layers import Layers
+from kmk.extensions.media_keys import MediaKeys
+keyboard.extensions.append(MediaKeys())
 
 keyboard = KMKKeyboard()
 
