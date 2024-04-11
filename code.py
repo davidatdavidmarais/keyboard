@@ -36,10 +36,10 @@ XXXXXXX = KC.NO
 keyboard.keymap = [
     # Base layer
     [
-     KC.HT(KC.TAB, KC.CTRL(KC.ALT)),                KC.Q,         KC.W,           KC.E,                  KC.R,                          KC.T,                                       KC.Y,                           KC.U,             KC.I,                   KC.O,          KC.P,           KC.ESC,
+     KC.HT(KC.TAB, KC.LCTRL(KC.LALT)),                KC.Q,         KC.W,           KC.E,                  KC.R,                          KC.T,                                       KC.Y,                           KC.U,             KC.I,                   KC.O,          KC.P,           KC.ESC,
      KC.OS(KC.LALT),                                KC.A,         KC.S,           KC.D,                  KC.F,                          KC.G,                                       KC.H,                           KC.J,             KC.K,                   KC.L,          KC.SCLN,        KC.QUOT,
      KC.OS(KC.LSFT),                                KC.Z,         KC.X,           KC.C,                  KC.V,                          KC.B,                                       KC.N,                           KC.M,             KC.COMM,                KC.DOT,        KC.SLSH,        KC.QUES,
-     XXXXXXX,                                       XXXXXXX,      XXXXXXX,        KC.OS(KC.MEH),         KC.HT(KC.ENT, KC.LGUI),        KC.FD(1),                                   KC.BSPC,                        KC.SPC,           KC.OS(KC.CTRL),         XXXXXXX,       XXXXXXX,        XXXXXXX
+     XXXXXXX,                                       XXXXXXX,      XXXXXXX,        KC.OS(KC.MEH),         KC.HT(KC.ENT, KC.LGUI),        KC.FD(1),                                   KC.BSPC,                        KC.SPC,           KC.OS(KC.LCTL),         XXXXXXX,       XXXXXXX,        XXXXXXX
     ],
     # Lower layer
     [
@@ -50,7 +50,7 @@ keyboard.keymap = [
     ],
     # Raise layer
     [
-     KC.HT(KC.TAB, KC.CTRL(KC.ALT)),      KC.DEL,       XXXXXXX,      KC.UNDS,            KC.PLUS,            KC.PGUP,                                                             XXXXXXX,      XXXXXXX,     KC.UP,        KC.BSLS,       KC.PIPE,      _______,
+     KC.HT(KC.TAB, KC.LCTRL(KC.LALT)),      KC.DEL,       XXXXXXX,      KC.UNDS,            KC.PLUS,            KC.PGUP,                                                             XXXXXXX,      XXXXXXX,     KC.UP,        KC.BSLS,       KC.PIPE,      _______,
      KC.LALT,                             KC.HOME,      KC.END,       KC.MINS,            KC.EQL,             KC.PGDN,                                                             KC.APP,       KC.LEFT,     KC.DOWN,      KC.RIGHT,      KC.DOWN,      _______,
      KC.LSFT,                             KC.LABK,      KC.RABK,      KC.LCMD(KC.C),      KC.LCMD(KC.V),      KC.SCLN,                                                             KC.MPLY,      KC.MPRV,     KC.MNXT,      KC.VOLD,       KC.VOLU,      _______,
      XXXXXXX,                             XXXXXXX,      XXXXXXX,      KC.LCTL(KC.ESC),    _______,            KC.FD(3),                                                            KC.FD(0),     _______,     _______,      XXXXXXX,       XXXXXXX,      XXXXXXX
