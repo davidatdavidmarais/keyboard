@@ -45,6 +45,7 @@ OS_SFT = KC.OS(KC.LSFT)
 OS_MEH = KC.OS(KC.MEH)
 # HT
 HT_ENT_GUI = KC.HT(KC.ENT, KC.LGUI)
+
 # LEVELS
 L0 = KC.FD(0)
 L1 = KC.FD(1)
@@ -56,7 +57,7 @@ keyboard.keymap = [
     # Base layer
     [
      KC.HT(KC.TAB, CA),    KC.Q,         KC.W,        KC.E,               KC.R,               KC.T,                                       KC.Y,           KC.U,         KC.I,               KC.O,          KC.P,           KC.ESC,
-     OS_SFT,               KC.HT(KC.A, KC.LALT, prefer_hold=False),      KC.HT(KC.S, KC.LCMD, prefer_hold=False),        KC.HT(KC.D, KC.LGUI, prefer_hold=False),               KC.HT(KC.F, KC.SFT, prefer_hold=False),               KC.G, KC.H, KC.HT(KC.J, KC.SFT, prefer_hold=False),              KC.HT(KC.K, KC.LGUI, prefer_hold=False),          KC.HT(KC.L, KC.LCMD, prefer_hold=False),         KC.HT(KC.SCLN, KC.LALT, prefer_hold=False),        KC.QUOT,
+     OS_SFT,               KC.HT(KC.A, KC.LCTL, prefer_hold=False),      KC.HT(KC.S, KC.LALT, prefer_hold=False),        KC.HT(KC.D, KC.LGUI, prefer_hold=False),               KC.HT(KC.F, KC.SFT, prefer_hold=False),               KC.G, KC.H, KC.HT(KC.J, KC.SFT, prefer_hold=False),              KC.HT(KC.K, KC.LGUI, prefer_hold=False),          KC.HT(KC.L, KC.LALT, prefer_hold=False),         KC.HT(KC.SCLN, KC.LCTL, prefer_hold=False),        KC.QUOT,
      OS_ALT,               KC.Z,         KC.X,        KC.C,               KC.V,               KC.B,                                       KC.N,           KC.M,         KC.COMM,            KC.DOT,        KC.SLSH,        KC.QUES,
      N_A,                  N_A,          N_A,         OS_MEH,             HT_ENT_GUI,         KC.HT(L1, KC.MO(2)),                        KC.HT(KC.BSPC, KC.MO(1)),        KC.SPC,       KC.LCTL,            N_A,           N_A,            N_A
     ],
