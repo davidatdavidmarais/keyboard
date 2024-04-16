@@ -45,6 +45,15 @@ OS_SFT = KC.OS(KC.LSFT)
 OS_MEH = KC.OS(KC.MEH)
 # HT
 HT_ENT_GUI = KC.HT(KC.ENT, KC.LGUI)
+HT_A_CTL = KC.HT(KC.A, KC.LCTL, prefer_hold=False)
+HT_S_ALT = KC.HT(KC.S, KC.LALT, prefer_hold=False)
+HT_D_GUI = KC.HT(KC.D, KC.LGUI, prefer_hold=False)
+HT_F_SFT = KC.HT(KC.F, KC.SFT, prefer_hold=False)
+HT_J_SFT = KC.HT(KC.J, KC.SFT, prefer_hold=False)
+HT_K_GUI = KC.HT(KC.K, KC.LGUI, prefer_hold=False)
+HT_L_ALT = KC.HT(KC.L, KC.LALT, prefer_hold=False)
+HT_SCLN_CTL = KC.HT(KC.SCLN, KC.LCTL, prefer_hold=False)
+HT_BSPC_MO_1 = KC.HT(KC.BSPC, KC.MO(1))
 
 # LEVELS
 L0 = KC.FD(0)
@@ -57,9 +66,9 @@ keyboard.keymap = [
     # Base layer
     [
      KC.HT(KC.TAB, CA),    KC.Q,         KC.W,        KC.E,               KC.R,               KC.T,                                       KC.Y,           KC.U,         KC.I,               KC.O,          KC.P,           KC.ESC,
-     OS_SFT,               KC.HT(KC.A, KC.LCTL, prefer_hold=False),      KC.HT(KC.S, KC.LALT, prefer_hold=False),        KC.HT(KC.D, KC.LGUI, prefer_hold=False),               KC.HT(KC.F, KC.SFT, prefer_hold=False),               KC.G, KC.H, KC.HT(KC.J, KC.SFT, prefer_hold=False),              KC.HT(KC.K, KC.LGUI, prefer_hold=False),          KC.HT(KC.L, KC.LALT, prefer_hold=False),         KC.HT(KC.SCLN, KC.LCTL, prefer_hold=False),        KC.QUOT,
+     OS_SFT,               HT_A_CTL,     HT_S_ALT,    HT_D_GUI,           HT_F_SFT,           KC.G,                                       KC.H,           HT_J_SFT,     HT_K_GUI,           HT_L_ALT,      HT_SCLN_CTL,    KC.QUOT,
      OS_ALT,               KC.Z,         KC.X,        KC.C,               KC.V,               KC.B,                                       KC.N,           KC.M,         KC.COMM,            KC.DOT,        KC.SLSH,        KC.QUES,
-     N_A,                  N_A,          N_A,         OS_MEH,             HT_ENT_GUI,         KC.HT(L1, KC.MO(2)),                        KC.HT(KC.BSPC, KC.MO(1)),        KC.SPC,       KC.LCTL,            N_A,           N_A,            N_A
+     N_A,                  N_A,          N_A,         OS_MEH,             HT_ENT_GUI,         KC.HT(L1, KC.MO(2)),                        HT_BSPC_MO_1,   KC.SPC,       KC.LCTL,            N_A,           N_A,            N_A
     ],
     # Lower layer
     [
