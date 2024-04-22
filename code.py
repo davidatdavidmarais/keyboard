@@ -108,7 +108,7 @@ keyboard.keymap = [
     ],
     # Old number
     [
-     KC.EXLM,             KC.AT,        KC.HASH,      KC.DLR,             KC.PERC,            KC.CIRC,                                    KC.UNDS,                      KC.AMPR,            KC.ASTR,            KC.UNDS,            , KC.LPRN,        KC.RPRN, 
+     KC.EXLM,             KC.AT,        KC.HASH,      KC.DLR,             KC.PERC,            KC.CIRC,                                    KC.UNDS,                      KC.AMPR,            KC.ASTR,            KC.UNDS,            KC.LPRN,        KC.RPRN, 
           KC.LSFT,               KC.P2,        KC.P3,        KC.P4,              KC.P5,              KC.P6,                               KC.PPLS,                        KC.DLR,             KC.PERC,            KC.CIRC,         KC.MINUS,           KC.EQL,
      KC.LSFT,      N_A,          KC.TILD,      KC.GRV,             KC.LBRC,            KC.LCBR,                                         KC.RCBR,                           KC.EXLM,       KC.AT,              KC.HASH,          KC.QUES,            KC.QUES,
      N_A,                 N_A,          N_A,          OS_MEH,             HT_ENT_GUI,         L2,                                         L0,                           KC.SPC,             KC.COLN,            N_A,              N_A,                N_A
